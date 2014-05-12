@@ -30,7 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -53,21 +52,11 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 160);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(208, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Respositorio modificado desde otra cuenta";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 189);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(282, 141);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -81,7 +70,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
 
     }
 }
